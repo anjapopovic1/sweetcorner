@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/convert.css"> 
+    <title>Sweet Corner - Convert</title>
+    <script src="js/script_convert.js"></script>
+</head>
+<body>
+    
+     <header>
+        <a href="index.html">
+            <img src="./img/SweetCornerLogo.png" class="logo-img">
+        </a>
+                
+        <ul class="menu-bar">
+            <li >
+                <a href="index.html">Welcome</a>
+            </li>
+            <li >
+                <a href="bake.html">Bake</a>
+            </li>
+            <li>
+                <a href="share.html">Share</a>
+            </li>
+            <li class="current">
+                <a href="convert.html"> Convert</a>
+            </li>
+        </ul>
+    </header>
+    <br>
+    <br>
+    <h2>WEIGHT CONVERTER<br></h2>
+
+   <div class="single-conv">
+        
+    <p>
+        <label><br><b>GRAMS</b></label><br>
+    <input id="inputGrams"   type="number" placeholder="Grams" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+</p></div>
+    <div class="converter">
+        <div class="single-conv"><p><br><b>POUNDS:</b> <br><span  id="outputPounds"></span></p></div> 
+        <div class="single-conv"><p><b>CUPS:</b> <br><span  id="outputCups"></span></p></div> 
+        <div class="single-conv"><p><b>OUNCES:</b><br> <span  id="outputOunces"></span></p></div> 
+        <div class="single-conv"><p><b>PINTS: </b><br><span  id="outputPints"></span></p></div> 
+        
+    </div>
+    
+    
+</body>
+
+
+
+</html>
+
+

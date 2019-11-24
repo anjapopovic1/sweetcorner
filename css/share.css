@@ -1,0 +1,98 @@
+body{
+    background-image:url("https://scontent.fbeg5-1.fna.fbcdn.net/v/t1.15752-9/78572582_553746502122501_2554027784607367168_n.jpg?_nc_cat=108&_nc_oc=AQnthLgqryadtszq5UEjoMjs7N4iYZc7dgdRswAGZJ1bSIFwFs5FBwOou40bIP1sMZU&_nc_ht=scontent.fbeg5-1.fna&oh=493855598c5c338319fc33b7d3f5a238&oe=5E8157F2") ;
+    background-color: rgba(255,255,255,0.5);
+    background-blend-mode: lighten;
+    
+}
+
+label{
+    font-size: 25px;
+    margin: 10px 0;
+    
+}
+
+.input{
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+    margin: 10px 0;
+}
+
+textarea{
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+select{
+    border-radius: 5px;
+    width: 20%;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.button{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 40%;
+    height: 35px;
+    background-color: #c27868;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.klasa{
+  margin-top: 20px;
+}
+
+.pismo{
+    float: left;
+    width: 40%;
+    height: auto;
+    padding: 30px;
+    margin-left: 20px;
+
+}
+
+.forma{
+    border-radius: 15px;
+    -webkit-box-shadow: 2px -21px 44px 4px rgba(140,120,136,1);
+    -moz-box-shadow: 2px -21px 44px 4px rgba(140,120,136,1);
+    box-shadow: 2px 20px 44px 4px rgba(140,120,136,1);
+    font-family: sans-serif;
+    color: #8b3320;
+    float: left;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin-left: 6%;
+    margin-top:7%;
+
+    background-color: rgb(252, 206, 206);
+}
+
+.output {
+    margin-top: 50% ;
+}
+
+@media(max-width: 790px){
+
+    .pismo{
+       
+        width: 80%;
+        height: auto;
+      
+
+    }
+
+    .forma{
+        width: 80%;
+    }
+
+    .glavna{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
