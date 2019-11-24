@@ -7,7 +7,7 @@ body{
     background-image: url("https://scontent.fbeg5-1.fna.fbcdn.net/v/t1.15752-9/61205047_340779329964948_677849107502465024_n.jpg?_nc_cat=107&_nc_oc=AQnpLvRb8daJ4GZCKC1_Qpy8IdDtGakxGmfP-aJAIjkXIXZG6Q49Z3nyJ9XwBJbL3U8&_nc_ht=scontent.fbeg5-1.fna&oh=22c7d3d6a51173babfc13bc629ff30f2&oe=5E4277AB");
     background-repeat: no-repeat;
     position: relative;
-    background-size: 1370px 800px;
+    background-size: 100% 800px;
     margin: 0;
     padding-top: 20;
     font-family: sans-serif;
