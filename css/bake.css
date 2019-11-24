@@ -120,13 +120,13 @@ header .current a{
         align-items: center;
         justify-content: center;
         flex-shrink: inherit;
-        
+        width: 100%;
         
         
     }
     
     .single-img-rcp{
-        
+       width: 100%;
        
         padding: 20px 20px 20px 20px;
         
@@ -169,5 +169,7 @@ img:hover {
     transition: .5s;
 }
 
+
+  
 
   
