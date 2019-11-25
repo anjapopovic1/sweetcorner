@@ -24,7 +24,7 @@ header{
     padding: 0 70px;
     width: 100%;
     height: 80px;
-    box-sizing: border-box; /*vidi sta radi*/
+    box-sizing: border-box; 
     background: #f4f4f4;
     box-shadow: 0 5px 15px #774d65;
 }
